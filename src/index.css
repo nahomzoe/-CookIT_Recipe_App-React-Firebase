@@ -132,8 +132,9 @@ nav.sticky .nav-links li a:hover {
   justify-content: center;
 }
 h4 {
-  margin-top: 5rem;
+  margin-top: 2rem;
   text-align: center;
+  visibility: hidden;
 }
 .search {
   margin: auto;

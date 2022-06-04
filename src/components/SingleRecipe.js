@@ -38,6 +38,9 @@ const SingleRecipe = () => {
           <div className="card front-face">
             <img src={recipe.imagelink} />
           </div>
+          <div className="card back-face">
+            <img src={recipe.flag} />
+          </div>
         </div>
         <div className="detail">
           <div className="info">{recipe.name}</div>

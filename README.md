@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 npm install react-router-dom@6
 npm install firebase
+This is simple recipe app. Built with React and Firebase(Firestore) is used for database solution.
+
+CookIT_Recipe_App-React-Firebase
