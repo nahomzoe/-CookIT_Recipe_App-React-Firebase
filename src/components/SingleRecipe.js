@@ -32,21 +32,27 @@ const SingleRecipe = () => {
 
   return (
     <div>
-      <h2>{recipe.name}</h2>
-      <div className="card-container ">
-        <div className="wrapper">
+      <h2 className="si-name">{recipe.name}</h2>
+      <div className="single-card-container ">
+        <div className="single-wrapper">
           <div className="card front-face">
             <img src={recipe.imagelink} />
           </div>
-          <div className="card back-face">
-            <img src={recipe.flag} />
-          </div>
         </div>
         <div className="detail">
-          <div className="info">{recipe.name}</div>
-          <div className="info">{recipe.author}</div>
-          <div className="info">{recipe.country}</div>
-          <div className="info">{recipe.description}</div>
+          <div className="info">
+            <span>Author:-</span> {recipe.author}
+          </div>
+          <div className="info">
+            {" "}
+            <span>Recipe is from:-</span>
+            {recipe.country} <img src={recipe.flag} alt="flag" />
+          </div>
+          <div className="info">
+            {" "}
+            <span>Description:-</span>
+            {recipe.description}
+          </div>
           <div className="info">{recipe.quantities}</div>
           <div className="info">{recipe.ingredients}</div>
           <div className="info">{recipe.instruction}</div>
