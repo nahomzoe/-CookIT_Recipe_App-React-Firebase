@@ -25,19 +25,19 @@ const Footer = () => {
         </div>
         <div className="middle box">
           <div className="media-icons">
-            <a href="#">
+            <a href="https://www.facebook.com/bchelsinki">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#">
+            <a href="https://business.instagram.com/">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#">
+            <a href="https://business.twitter.com/en/basics/intro-twitter-for-business.html">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/user/hbusinesscollege">
               <i className="fab fa-youtube"></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/nahom-asfaw-6b78a6185/">
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>

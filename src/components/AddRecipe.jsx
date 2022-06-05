@@ -42,6 +42,7 @@ const AddRecipe = () => {
       ...data,
       country: correctCountry.alpha3Code,
       flag: correctCountry.flag,
+      countryname: correctCountry.name,
     });
   };
 

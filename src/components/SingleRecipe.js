@@ -41,21 +41,41 @@ const SingleRecipe = () => {
         </div>
         <div className="detail">
           <div className="info">
-            <span>Author:-</span> {recipe.author}
+            <h3>Author:</h3> {recipe.author}
+            <img src={recipe.flag} alt="Flag" />
           </div>
           <div className="info">
             {" "}
-            <span>Recipe is from:-</span>
-            {recipe.country} <img src={recipe.flag} alt="flag" />
+            <h3>Recipe is from:</h3>
+            {recipe.countryname}
           </div>
           <div className="info">
             {" "}
-            <span>Description:-</span>
+            <h3>Description:</h3>
             {recipe.description}
           </div>
-          <div className="info">{recipe.quantities}</div>
-          <div className="info">{recipe.ingredients}</div>
-          <div className="info">{recipe.instruction}</div>
+          <div className="ingredients">
+            <div className="info">
+              <h3>Quantity:</h3>
+              <ul>
+                {recipe.quantities &&
+                  recipe.quantities.map((qua) => <li key={id}>{qua}</li>)}
+              </ul>
+            </div>
+
+            <div className="info">
+              <h3>Ingredient:</h3>
+              <ul>
+                {recipe.ingredients &&
+                  recipe.ingredients.map((ing) => <li key={id}>{ing}</li>)}
+              </ul>
+            </div>
+          </div>
+          <div className="info">
+            {" "}
+            <h3>Instruction:</h3>
+            {recipe.instruction}
+          </div>
         </div>
       </div>
     </div>

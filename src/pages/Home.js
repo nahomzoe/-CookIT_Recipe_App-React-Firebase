@@ -15,13 +15,13 @@ const Home = () => {
       <div className="home">
         <div className="card">
           <p>Browes recipes</p>
-          <Link className="card-link" to="/singlerecipe">
+          <Link className="card-link" to="/allrecipes">
             See more
           </Link>
         </div>
         <div className="card1">
           <p>Add recipe</p>
-          <Link className="card-link" to="/singlerecipe">
+          <Link className="card-link" to="/addrecipe">
             See more
           </Link>
         </div>
