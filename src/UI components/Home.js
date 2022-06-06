@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../pages/header.mp4";
+import video from "./header.mp4";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 
       <div className="home">
         <div className="card">
-          <p>Browes recipes</p>
+          <p>Browse recipes</p>
           <Link className="card-link" to="/allrecipes">
             See more
           </Link>

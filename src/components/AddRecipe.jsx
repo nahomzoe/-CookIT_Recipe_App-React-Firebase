@@ -2,13 +2,7 @@ import { db } from "../firebase.config";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-import {
-  collection,
-  onSnapshot,
-  doc,
-  addDoc,
-  deleteDoc,
-} from "firebase/firestore";
+import { collection, addDoc } from "firebase/firestore";
 
 const AddRecipe = () => {
   const [data, setData] = useState({
@@ -22,9 +16,8 @@ const AddRecipe = () => {
     instruction: "",
   });
 
-  //const [popupActive, setPopupActive] = useState(false);
   const [countries, setCountries] = useState("");
-  //const [loading, setloading] = useState([false]);
+
   const recipesFetchRef = collection(db, "recipes");
 
   useEffect(() => {

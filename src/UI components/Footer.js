@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className="phone">
               <a href="#">
-                <i className="fas fa-phone-volume"></i>+358 0444 4444
+                <i className="fas fa-phone-volume"></i>+358 0000 0040
               </a>
             </div>
             <div className="email">

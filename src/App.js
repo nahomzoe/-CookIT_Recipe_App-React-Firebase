@@ -3,8 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AllRecipes from "./components/AllRecipes";
 import SingleRecipe from "./components/SingleRecipe";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
+import Layout from "./UI components/Layout";
+import Home from "./UI components/Home";
 import AddRecipe from "./components/AddRecipe";
 
 function App() {

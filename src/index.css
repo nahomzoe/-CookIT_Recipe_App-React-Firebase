@@ -228,6 +228,11 @@ input[type="submit"]:hover {
   z-index: -2;
 }
 
+.remove {
+  margin-left: 80%;
+  margin-top: 0;
+}
+
 ::selection {
   color: #fff;
   background: #1cc7d0;

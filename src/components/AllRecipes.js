@@ -2,13 +2,7 @@ import React from "react";
 
 import { db } from "../firebase.config";
 import { useEffect, useState } from "react";
-import {
-  collection,
-  onSnapshot,
-  doc,
-  addDoc,
-  deleteDoc,
-} from "firebase/firestore";
+import { collection, onSnapshot } from "firebase/firestore";
 
 import Recipecard from "./RecipeCard";
 
